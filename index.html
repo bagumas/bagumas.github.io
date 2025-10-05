@@ -1,49 +1,11 @@
 ---
-layout: home
-title: "AI Security Blog"
+layout: default
+title: "Samuel Baguma — AI Security"
 ---
 
-<div class="blog-list">
-  {% for post in paginator.posts %}
-    <article class="post-preview">
-      <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
-      <p class="post-date">{{ post.date | date: "%B %d, %Y" }}</p>
-      <p>{{ post.excerpt }}</p>
-    </article>
-    <hr>
-  {% endfor %}
-
-  <div class="pagination">
-    {% if paginator.previous_page %}
-      <a class="prev" href="{{ paginator.previous_page_path | relative_url }}">← Previous</a>
-    {% endif %}
-    {% if paginator.next_page %}
-      <a class="next" href="{{ paginator.next_page_path | relative_url }}">Next →</a>
-    {% endif %}
-  </div>
-</div>
-
-<style>
-  body {
-    background-color: #0e0e0e;
-    color: #eee;
-    font-family: system-ui, sans-serif;
-  }
-  .post-preview h2 a {
-    color: #4dd0e1;
-    text-decoration: none;
-  }
-  .post-preview h2 a:hover {
-    text-decoration: underline;
-  }
-  .pagination {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 2em;
-  }
-  .pagination a {
-    color: #4dd0e1;
-    text-decoration: none;
-  }
-</style>
+<section class="hero">
+  <h1>👋 Hi, I’m Samuel Baguma</h1>
+  <p>I specialize in securing AI in production — model encryption, authenticated inference, privacy, and adversarial defense.</p>
+  <p>Explore my <a href="/blog/">AI Security Blog</a> or check out <a href="/projects.html">projects</a> I’ve built.</p>
+</section>
 
