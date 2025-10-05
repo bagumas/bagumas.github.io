@@ -6,8 +6,8 @@ email: samuel.baguma@example.com
 github_username: bagumas
 linkedin: https://www.linkedin.com/in/samuel-baguma-37a45110/
 
-paginate: 5
-paginate_path: "/page:num"
+#paginate: 5
+#paginate_path: "/page:num"
 
 show_excerpts: true
 
