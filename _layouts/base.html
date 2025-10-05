@@ -1,84 +1,81 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{{ page.title | default: "Samuel Baguma — AI Security" }}</title>
-    <meta name="description" content="{{ page.description | default: 'Building secure, trustworthy, and resilient AI systems.' }}">
-    <!-- SEO Meta Tags -->
-    <meta name="keywords" content="AI Security, Machine Learning Security, Adversarial ML, MLOps, Samuel Baguma, Cybersecurity, Trustworthy AI">
-    <meta name="author" content="Samuel Baguma">
-    <meta name="robots" content="index, follow">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ page.title | default: "Samuel Baguma — AI Security" }}</title>
+  <meta name="description" content="{{ page.description | default: 'Building secure, trustworthy, and resilient AI systems.' }}">
 
-    <!-- Open Graph / LinkedIn / Facebook -->
-    <meta property="og:title" content="{{ page.title | default: 'Samuel Baguma — AI Security' }}">
-    <meta property="og:description" content="{{ page.description | default: 'Building secure, trustworthy, and resilient AI systems.' }}">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="{{ site.url }}{{ page.url }}">
-    <meta property="og:image" content="{{ site.url }}/assets/preview.jpg">
+  <!-- SEO Meta -->
+  <meta name="author" content="Samuel Baguma">
+  <meta name="keywords" content="AI Security, Machine Learning Security, MLOps, MLSecOps, Adversarial ML, Data Privacy, Samuel Baguma">
 
-    <!-- Twitter Card -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="{{ page.title | default: 'Samuel Baguma — AI Security' }}">
-    <meta name="twitter:description" content="{{ page.description | default: 'Building secure, trustworthy, and resilient AI systems.' }}">
-    <meta name="twitter:image" content="{{ site.url }}/assets/preview.jpg">
+  <!-- Open Graph (LinkedIn / Facebook) -->
+  <meta property="og:title" content="Samuel Baguma — AI Security">
+  <meta property="og:description" content="Building secure, trustworthy, and resilient AI systems.">
+  <meta property="og:image" content="{{ '/assets/images/preview.jpg' | relative_url }}">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="{{ site.url | default: site.github.url }}">
 
-    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
-    <style>
-      body {
-        background-color: #0e0e0e;
-        color: #eee;
-        font-family: 'Inter', sans-serif;
-        margin: 0;
-        padding: 0;
-      }
-      header {
-        background-color: #111;
-        padding: 1rem 2rem;
-        text-align: center;
-        border-bottom: 1px solid #333;
-      }
-      header h1 {
-        color: #4dd0e1;
-        margin: 0;
-        font-size: 1.8rem;
-      }
-      header p {
-        color: #ccc;
-        font-size: 1rem;
-        text-align: center; /* ✅ Force centering */
-        margin: 0.5rem auto 0.75rem;
-        width: 100%;
-        max-width: 800px;
-        display: flex;
-        justify-content: center;
-      }
-      nav {
-        margin-top: 0.5rem;
-      }
-      nav a {
-        color: #4dd0e1;
-        text-decoration: none;
-        margin: 0 10px;
-        font-weight: 500;
-      }
-      nav a:hover {
-        text-decoration: underline;
-      }
-      main {
-        padding: 2rem;
-        max-width: 900px;
-        margin: 0 auto;
-      }
-      footer {
-        text-align: center;
-        padding: 1rem;
-        border-top: 1px solid #333;
-        color: #999;
-        font-size: 0.9rem;
-      }
-    </style>
-  </head>
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Samuel Baguma — AI Security">
+  <meta name="twitter:description" content="Building secure, trustworthy, and resilient AI systems.">
+  <meta name="twitter:image" content="{{ '/assets/images/preview.jpg' | relative_url }}">
+  <meta name="twitter:creator" content="@samuelbaguma">
+
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  <link rel="icon" href="/assets/favicon.ico">
+  <style>
+    body {
+      background-color: #0e0e0e;
+      color: #eee;
+      font-family: 'Inter', sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #111;
+      padding: 1rem 2rem;
+      text-align: center;
+      border-bottom: 1px solid #333;
+    }
+    header h1 {
+      color: #4dd0e1;
+      margin: 0;
+      font-size: 1.8rem;
+    }
+    header p {
+      color: #ccc;
+      font-size: 1rem;
+    }
+    nav {
+      margin-top: 0.5rem;
+    }
+    nav a {
+      color: #4dd0e1;
+      text-decoration: none;
+      margin: 0 10px;
+      font-weight: 500;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    main {
+      padding: 2rem;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      border-top: 1px solid #333;
+      color: #999;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+
   <body>
     <header>
       <h1>Samuel Baguma — AI Security</h1>
