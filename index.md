@@ -61,7 +61,7 @@ title: "Samuel Baguma — AI Security"
 
   <p>Passionate about building secure, fair, explainable, and privacy-conscious AI systems that balance innovation and resilience. With a strong foundation in cybersecurity operations, threat detection, and automation, I bring a unique perspective to securing the next generation of machine learning technologies.</p>
 
-  🔗 <strong>LinkedIn:</strong> <a href="https://linkedin.com/in/samuel-baguma-37a45110">linkedin.com/in/samuel-baguma-37a45110</a></p>
+  🔗 <p><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/samuel-baguma-37a45110">linkedin.com/in/samuel-baguma-37a45110</a></p>
 
   <div class="links">
     <a href="/blog/">🧠 Explore the Blog</a> •
