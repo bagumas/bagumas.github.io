@@ -1,38 +1,55 @@
 ---
-layout: base
+layout: default
 ---
 
 <article class="post">
-  <header class="post-header" style="text-align:center; margin-bottom:2rem;">
-    <h1 class="post-title" style="color:#4dd0e1; margin-bottom:0.5rem;">
-      {{ page.title }}
-    </h1>
-    <p class="post-meta" style="color:#aaa;">
-      {{ page.date | date: "%B %d, %Y" }}
-    </p>
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title }}</h1>
+    <p class="post-meta">{{ page.date | date_to_long_string }}</p>
   </header>
 
-  <div class="post-content" style="color:#eee; line-height:1.8; font-size:1.1rem;">
+  <div class="post-content">
     {{ content }}
   </div>
+
+  <p style="margin-top: 2rem; text-align: center;">
+    <a href="/blog/" style="color:#4dd0e1; text-decoration:none;">← Back to Blog</a>
+  </p>
 </article>
+
+<footer style="text-align:center; border-top:1px solid #333; margin-top:2rem; padding:1rem; color:#aaa;">
+  © {{ site.time | date: "%Y" }} Samuel Baguma — <a href="https://github.com/bagumas" style="color:#4dd0e1;">GitHub</a> • 
+  <a href="https://linkedin.com/in/samuel-baguma-37a45110" style="color:#4dd0e1;">LinkedIn</a>
+</footer>
 
 <style>
   body {
     background-color: #0e0e0e;
     color: #eee;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-family: 'Inter', sans-serif;
+    line-height: 1.7;
+    margin: 0;
+    padding: 0;
+  }
+  .post-header h1 {
+    color: #4dd0e1;
+    text-align: center;
+  }
+  .post-meta {
+    text-align: center;
+    color: #aaa;
+    font-size: 0.9rem;
+  }
+  .post-content {
+    max-width: 850px;
+    margin: 2rem auto;
+    padding: 0 1.5rem;
   }
   a {
     color: #4dd0e1;
   }
   a:hover {
     text-decoration: underline;
-  }
-  hr {
-    border: none;
-    border-top: 1px solid #333;
-    margin: 2rem 0;
   }
 </style>
 
