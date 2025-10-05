@@ -10,7 +10,7 @@ Large Language Models (LLMs) bring incredible capabilities — but they’re als
 
 ## ⚠️ Common Prompt Attack Methods
 - **Prompt Injection** — Insert malicious instructions into user input, tricking the model into following attacker goals.
-- **Jailbreaking **— Craft prompts that bypass safeguards (e.g., role-play exploits like the “grandma story”), leading to inappropriate or unsafe outputs.
+- **Jailbreaking**— Craft prompts that bypass safeguards (e.g., role-play exploits like the “grandma story”), leading to inappropriate or unsafe outputs.
 
 
 - **Prompt Override** — Inject competing objectives that override system instructions, sometimes causing denial-of-service in multi-turn contexts.

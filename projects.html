@@ -1,60 +1,107 @@
 ---
 layout: base
-title: "Projects"
+title: "Projects — Samuel Baguma"
 ---
 
+<style>
+  body {
+    background-color: #0e0e0e;
+    color: #eaeaea;
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  header, footer {
+    text-align: center;
+  }
+  main {
+    max-width: 900px;
+    margin: 3rem auto;
+    padding: 0 1.5rem;
+  }
+  h1, h2, h3 {
+    color: #4dd0e1;
+  }
+  a {
+    color: #4dd0e1;
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  .project {
+    background-color: #111;
+    border-radius: 10px;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  }
+  .project h2 {
+    margin-top: 0;
+  }
+  .tech-stack {
+    font-style: italic;
+    color: #aaa;
+  }
+  .divider {
+    border-top: 1px solid #333;
+    margin: 2rem 0;
+  }
+</style>
 
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Projects — Samuel Baguma</title>
-  <link rel="icon" href="/assets/favicon.ico">
-  <link rel="stylesheet" href="/style.css">
-</head>
-<body>
+<main>
+  <h1>🧠 Projects</h1>
+  <p>Exploring secure, privacy-conscious, and trustworthy AI systems — from conversational agents to secure inference pipelines.</p>
 
-<main class="wrap">
-  <article id="smcp" class="card">
-    <h2>Secure Model Context Protocol (SMCP)</h2>
-    <p><em>Trust boundaries & signed context for LLMs and inference APIs.</em></p>
-    <ul class="bullets">
-      <li>Context integrity: signed prompts/parameters, replay protection, auditable request IDs.</li>
-      <li>Authorization: per‑route policies, API‑key or OAuth2, least‑privilege context scopes.</li>
-      <li>Confidentiality: envelope encryption for sensitive inputs; zero logging of secrets.</li>
-      <li>Guardrails: inbound prompt scanning, output validation, and safe rendering layer.</li>
-      <li>Observability: structured logs, red‑team telemetry, and SIEM forwarding.</li>
+  <div class="divider"></div>
+
+  <section class="project">
+    <h2>🤖 AI HealthBot — Conversational Medical Assistant</h2>
+    <p><strong>Overview:</strong><br>
+    AI HealthBot is a conversational AI system designed to help users describe symptoms, assess potential conditions, and receive precautionary guidance. Built with <strong>LLMs, NLP, and multi-agent coordination</strong>, it demonstrates secure deployment and privacy-conscious interaction design.</p>
+
+    <p><strong>Core Features:</strong></p>
+    <ul>
+      <li>🩺 Symptom analysis and probable disease matching</li>
+      <li>⚕️ Precaution and risk-level assessment</li>
+      <li>💬 FAQ-style health information responses</li>
+      <li>🧩 Vector-based retrieval using FAISS and LangChain</li>
+      <li>🧠 Contextual multi-turn dialogue with memory retention</li>
     </ul>
-  </article>
 
-  <article id="ai-defense-pipeline" class="card">
-    <h2>AI Defense Pipeline</h2>
-    <p><em>Adversarial detection & automated mitigation in CI/CD.</em></p>
-    <ul class="bullets">
-      <li>ART/TextAttack suites for FGSM, PGD, CW; thresholds on attack success rate.</li>
-      <li>Data validation & poisoning watchdogs; label‑skew and outlier alerts.</li>
-      <li>Model integrity: signing, hashing, and registry immutability.</li>
-      <li>Automated rollback on security regression; drift detection hooks.</li>
-    </ul>
-  </article>
+    <p class="tech-stack"><strong>Tech Stack:</strong> Python, Transformers, LangChain, FAISS, Gradio, Hugging Face Spaces</p>
 
-  <article id="healthbot-security" class="card">
-    <h2>HealthBot AI Security System</h2>
-    <p><em>Privacy‑preserving clinical chatbot with LLM safety.</em></p>
-    <ul class="bullets">
-      <li>Differential privacy for analytics; PHI minimization and token‑level redaction.</li>
-      <li>Prompt‑injection guardrails, output filters, and safe‑action whitelists.</li>
-      <li>mTLS between microservices; role‑based access to logs & transcripts.</li>
-      <li>Audit trails for HIPAA/HITRUST mapping; incident response playbooks.</li>
+    <p>🌐 <a href="https://huggingface.co/spaces/sbaguma/HealthBot" target="_blank">Live Demo</a></p>
+
+    <p><strong>Security & Privacy Focus:</strong>  
+    Incorporates differential privacy principles and input sanitization to prevent data leakage and ensure ethical AI interaction.</p>
+  </section>
+
+  <div class="divider"></div>
+
+  <section class="project">
+    <h2>⚙️ Secure Model Inference Pipeline — From Model to Production, Safely</h2>
+    <p><strong>Overview:</strong><br>
+    A full-lifecycle MLOps pipeline that integrates security validation, adversarial testing, and automated model promotion. The system ensures only verified and robust models progress through CI/CD using Jenkins and MLflow.</p>
+
+    <p><strong>Pipeline Workflow:</strong></p>
+    <ul>
+      <li>🧰 <strong>Model Scanning:</strong> AV and modelscan validation for embedded threats</li>
+      <li>🧪 <strong>Adversarial Testing:</strong> Stress-tested with Adversarial Robustness Toolkit (ART)</li>
+      <li>🧾 <strong>Integrity Verification:</strong> SHA-256 hashing and MLflow registration</li>
+      <li>🚦 <strong>Secure Promotion:</strong> Auto-promotes passing models to Staging</li>
     </ul>
-  </article>
+
+    <p class="tech-stack"><strong>Tech Stack:</strong> Python, Jenkins, MLflow, Docker, Bash, ClamAV, ART, Flask, AWS S3</p>
+
+    <p><strong>Security Highlights:</strong><br>
+    ✅ Model provenance tracking via MLflow<br>
+    ✅ Containerized isolation for test environments<br>
+    ✅ Secure secrets handling in CI/CD<br>
+    ✅ Integration-ready with Secure Model Context Protocol (SMCP)</p>
+
+    <p><strong>Impact:</strong><br>
+    This pipeline enforces <em>defensive MLOps</em> — embedding security gates, provenance, and compliance directly into the ML lifecycle.</p>
+  </section>
 </main>
 
-<footer class="site-footer">
-  <div class="wrap">
-    <p><a href="/">← Back to About</a></p>
-  </div>
-</footer>
-</body>
-</html>

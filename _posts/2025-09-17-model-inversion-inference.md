@@ -24,7 +24,7 @@ While model extraction steals the **model**, inversion and inference attacks aim
 - **Attribute inference**: learn global properties (e.g., average age of a dataset).
 - **Meta-classifier**: train a surrogate to imitate target behavior using data from a similar distribution.
 
-3️⃣ **Membership Inference **– Determines whether a record was in the training set (e.g., health status, preferences). Often succeeds against overfit models that memorize data.
+3️⃣ **Membership Inference**– Determines whether a record was in the training set (e.g., health status, preferences). Often succeeds against overfit models that memorize data.
 
 ## 🛡️ Defenses
 - **Limit model output**: return top-1 predictions (argmax), not full probability vectors.
