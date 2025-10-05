@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "🔐 #3: Evasion Attacks — Fooling Deployed AI Models"
-date: 2025-10-03
+date: 2025-09-09
 categories: [AI Security, Machine Learning]
 tags: [AI, Security, Adversarial ML, Cybersecurity]
 ---
