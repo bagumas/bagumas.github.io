@@ -1,4 +1,4 @@
-z---
+---
 layout: post
 title: "🚨 #2: Poisoning Attacks — When Hackers Train Your AI"
 date: 2025-10-02
