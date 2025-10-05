@@ -1,8 +1,20 @@
 ---
-layout: home
-title: "Blog — AI Security Deep Dives"
-permalink: /blog/
+layout: blog
+title: "AI Security Blog"
 ---
 
-Welcome to my blog — where I write about securing AI models, inference APIs, and adversarial defenses.
+# 🧠 AI Security Deep Dives
+
+Welcome to my blog — exploring **model protection**, **AI security**, and **adversarial defenses**.
+
+---
+
+{% for post in site.posts %}
+### [{{ post.title }}]({{ post.url | relative_url }})
+*{{ post.date | date: "%d %B %Y" }}*
+
+{{ post.excerpt }}
+
+---
+{% endfor %}
 
