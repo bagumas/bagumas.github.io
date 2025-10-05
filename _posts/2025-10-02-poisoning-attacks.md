@@ -6,7 +6,7 @@ categories: [AI Security, Machine Learning]
 tags: [AI, Security, Adversarial ML, Cybersecurity]
 ---
 
-🚨 #2: Poisoning Attacks — When Hackers Train Your AI
+#🚨 2: Poisoning Attacks — When Hackers Train Your AI
 In the second post of my 7-part series on securing AI systems, I dive into poisoning attacks — how attackers compromise AI models before deployment and what organizations can do to defend against them.
 
 Most people focus on securing deployed AI models, but attackers often strike before deployment — during the training phase. This is where poisoning attacks come in.

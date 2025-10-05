@@ -6,7 +6,6 @@ categories: [AI Security, Machine Learning]
 tags: [AI, Security, Adversarial ML, Cybersecurity]
 ---
 
-# 🚀 Building a Strong AI Security Baseline
 
 As organizations race to integrate AI into their products, security often lags behind — leaving critical models, data, and APIs vulnerable.
 
