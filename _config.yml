@@ -1,0 +1,9 @@
+title: "Samuel Baguma — AI Security Blog"
+description: "Deep dives on AI security, model protection, and adversarial defense."
+theme: minima
+author: Samuel Baguma
+email: samuel.baguma@example.com
+github_username: bagumas
+linkedin: https://www.linkedin.com/in/samuel-baguma-37a45110/
+paginate: 5
+show_excerpts: true
