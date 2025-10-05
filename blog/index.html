@@ -1,9 +1,21 @@
 ---
-layout: home
+layout: default
 title: "AI Security Blog"
 ---
 
-<div class="blog-list">
+<header style="text-align: center; padding: 2rem 1rem 1rem; border-bottom: 1px solid #333;">
+  <h1 style="color: #4dd0e1; margin-bottom: 0.5rem;">Samuel Baguma — Security AI</h1>
+  <p style="color: #aaa; margin-bottom: 1rem; font-style: italic;">
+    Deep dives on AI security, model protection, and adversarial defense.
+  </p>
+  <nav>
+    <a href="/" style="color:#4dd0e1; margin:0 0.75rem; text-decoration:none;">Home</a> |
+    <a href="/projects.html" style="color:#4dd0e1; margin:0 0.75rem; text-decoration:none;">Projects</a> |
+    <a href="/blog/" style="color:#4dd0e1; margin:0 0.75rem; text-decoration:none;">Blog</a>
+  </nav>
+</header>
+
+<main class="blog-list">
   {% for post in site.posts %}
     <article class="post-preview">
       <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
@@ -12,13 +24,19 @@ title: "AI Security Blog"
     </article>
     <hr>
   {% endfor %}
-</div>
+</main>
+
+<footer style="text-align: center; padding: 1rem; border-top: 1px solid #333; color: #999; font-size: 0.9rem;">
+  © {{ site.time | date: "%Y" }} Samuel Baguma
+</footer>
 
 <style>
   body {
     background-color: #0e0e0e;
     color: #eee;
     font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
   }
   .post-preview h2 a {
     color: #4dd0e1;
@@ -35,6 +53,11 @@ title: "AI Security Blog"
     border: none;
     border-top: 1px solid #333;
     margin: 1.5rem 0;
+  }
+  main.blog-list {
+    max-width: 850px;
+    margin: 3rem auto;
+    padding: 0 1.5rem;
   }
 </style>
 
