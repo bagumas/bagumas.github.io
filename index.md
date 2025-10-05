@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Samuel Baguma — Security AI"
+title: ""
 ---
 
 <style>
