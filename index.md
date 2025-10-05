@@ -1,6 +1,6 @@
 ---
 layout: base
-title: "Samuel Baguma — Security AI"
+title: "Samuel Baguma — AI Security"
 ---
 
 <style>
@@ -61,7 +61,6 @@ title: "Samuel Baguma — Security AI"
 
   <p>Passionate about building secure, fair, explainable, and privacy-conscious AI systems that balance innovation and resilience. With a strong foundation in cybersecurity operations, threat detection, and automation, I bring a unique perspective to securing the next generation of machine learning technologies.</p>
 
-  <p>📬 <strong>Email:</strong> <a href="mailto:kabsam99@gmail.com">kabsam99@gmail.com</a><br>
   🔗 <strong>LinkedIn:</strong> <a href="https://linkedin.com/in/samuel-baguma-37a45110">linkedin.com/in/samuel-baguma-37a45110</a></p>
 
   <div class="links">
@@ -70,4 +69,3 @@ title: "Samuel Baguma — Security AI"
     <a href="https://github.com/bagumas">GitHub</a>
   </div>
 </main>
-

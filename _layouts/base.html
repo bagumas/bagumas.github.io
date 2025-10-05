@@ -3,8 +3,26 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{{ page.title | default: "Samuel Baguma — Security AI" }}</title>
+    <title>{{ page.title | default: "Samuel Baguma — AI Security" }}</title>
     <meta name="description" content="{{ page.description | default: 'Building secure, trustworthy, and resilient AI systems.' }}">
+    <!-- SEO Meta Tags -->
+    <meta name="keywords" content="AI Security, Machine Learning Security, Adversarial ML, MLOps, Samuel Baguma, Cybersecurity, Trustworthy AI">
+    <meta name="author" content="Samuel Baguma">
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph / LinkedIn / Facebook -->
+    <meta property="og:title" content="{{ page.title | default: 'Samuel Baguma — AI Security' }}">
+    <meta property="og:description" content="{{ page.description | default: 'Building secure, trustworthy, and resilient AI systems.' }}">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+    <meta property="og:image" content="{{ site.url }}/assets/preview.jpg">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="{{ page.title | default: 'Samuel Baguma — AI Security' }}">
+    <meta name="twitter:description" content="{{ page.description | default: 'Building secure, trustworthy, and resilient AI systems.' }}">
+    <meta name="twitter:image" content="{{ site.url }}/assets/preview.jpg">
+
     <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
     <style>
       body {
@@ -63,7 +81,7 @@
   </head>
   <body>
     <header>
-      <h1>Samuel Baguma — Security AI</h1>
+      <h1>Samuel Baguma — AI Security</h1>
       <p>Building secure, trustworthy, and resilient AI systems.</p>
       <nav>
         <a href="/">Home</a> |
