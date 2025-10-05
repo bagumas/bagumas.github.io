@@ -52,15 +52,6 @@ title: "Samuel Baguma — Security AI"
   }
 </style>
 
-<header>
-  <h1>Samuel Baguma — Security AI</h1>
-  <p>Building secure, trustworthy, and resilient AI systems.</p>
-  <nav>
-    <a href="/">Home</a> |
-    <a href="/projects.html">Projects</a> |
-    <a href="/blog/">Blog</a>
-  </nav>
-</header>
 
 <main>
   <h2>👋 Hi, I’m Samuel Baguma</h2>
