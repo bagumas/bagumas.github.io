@@ -1,19 +1,15 @@
 ---
-layout: home
-title: "Welcome to My AI Security Blog"
+layout: default
+title: "Samuel Baguma — AI Security"
 ---
 
-### 👋 Hi, I’m Samuel Baguma  
-I write about **AI security, model protection, adversarial ML**, and **secure ML system design**.
+<div style="text-align: center; padding: 2rem; color: #eee;">
+  <h1>👋 Hi, I’m Samuel Baguma</h1>
+  <p>I secure AI systems — from <strong>model encryption</strong> and <strong>adversarial defense</strong> to <strong>data privacy</strong> and <strong>inference API protection</strong>.</p>
+  <p>Explore my <a href="/blog/" style="color:#4dd0e1;">AI Security Blog</a> or view <a href="/projects.html" style="color:#4dd0e1;">projects</a>.</p>
+  <p>
+    <a href="https://github.com/bagumas" style="color:#4dd0e1;">GitHub</a> •
+    <a href="https://linkedin.com/in/samuel-baguma-37a45110" style="color:#4dd0e1;">LinkedIn</a>
+  </p>
+</div>
 
----
-
-🧠 **Recent Series**  
-[AI Security Baseline](/blog/ai-security-baseline)  
-[Poisoning Attacks](/blog/poisoning-attacks)  
-[Evasion Attacks](/blog/evasion-attacks)  
-[Model Extraction](/blog/model-extraction)  
-[Model Inversion & Inference Attacks](/blog/model-inversion-inference)  
-[Prompt Attacks on LLMs](/blog/prompt-attacks-llms)  
-[Privacy-Preserving AI](/blog/privacy-preserving-ai)  
-[Hardening ML Inference](/blog/hardening-ml-inference)
