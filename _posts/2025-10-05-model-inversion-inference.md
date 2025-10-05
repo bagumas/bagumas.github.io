@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "🔐 #5 — Model Inversion & Inference Attacks (Stealing the Data)"
-date: 5_model_in
+date: 2025-10-05
 categories: [AI Security, Machine Learning]
 tags: [AI, Security, Adversarial ML, Cybersecurity]
 ---

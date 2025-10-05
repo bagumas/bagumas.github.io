@@ -1,7 +1,7 @@
 z---
 layout: post
 title: "🚨 #2: Poisoning Attacks — When Hackers Train Your AI"
-date: 2_poisonin
+date: 2025-10-02
 categories: [AI Security, Machine Learning]
 tags: [AI, Security, Adversarial ML, Cybersecurity]
 ---

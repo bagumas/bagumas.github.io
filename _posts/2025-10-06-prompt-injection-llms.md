@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "🛡️ #6 — Adversarial Prompt Attacks on LLMs"
-date: 6_prompt_i
+date: 2025-10-06
 categories: [AI Security, Machine Learning]
 tags: [AI, Security, Adversarial ML, Cybersecurity]
 ---

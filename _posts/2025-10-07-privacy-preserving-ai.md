@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "🔒 #7 Privacy-Preserving AI"
-date: 7_privacy_
+date: 2025-10-07
 categories: [AI Security, Machine Learning]
 tags: [AI, Security, Adversarial ML, Cybersecurity]
 ---
