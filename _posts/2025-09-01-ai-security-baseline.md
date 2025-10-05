@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "🚀 #1: Building a Strong AI Security Baseline"
+title: "🚀 1: Building a Strong AI Security Baseline"
 date: 2025-09-01
 categories: [AI Security, Machine Learning]
 tags: [AI, Security, Adversarial ML, Cybersecurity]

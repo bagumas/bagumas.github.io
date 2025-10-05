@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "⚙️ Hardening ML Inference: A Deep Dive into Securing Models & APIs"
+title: "⚙️ 8: Hardening ML Inference: A Deep Dive into Securing Models & APIs"
 date: 2025-09-29
 categories: [AI Security, Machine Learning]
 tags: [AI, Security, Adversarial ML, Cybersecurity]

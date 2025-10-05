@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "🔎 #4 — Model Extraction (aka “Model Stealing”)"
+title: "🔎 4: Model Extraction (aka “Model Stealing”)"
 date: 2025-09-13
 categories: [AI Security, Machine Learning]
 tags: [AI, Security, Adversarial ML, Cybersecurity]
