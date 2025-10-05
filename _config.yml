@@ -14,4 +14,10 @@ minima:
       user_url: https://github.com/bagumas
     - platform: linkedin
       user_url: https://www.linkedin.com/in/samuel-baguma-37a45110/
-i
+
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+
+paginate_path: "/blog/page:num"
+
