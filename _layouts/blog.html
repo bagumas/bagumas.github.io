@@ -1,0 +1,26 @@
+---
+layout: default
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ page.title }} | {{ site.title }}</title>
+    <link rel="stylesheet" href="{{ '/assets/css/blog-dark.css' | relative_url }}">
+  </head>
+
+  <body>
+    <main class="post-list">
+      <h1>{{ page.title }}</h1>
+      {{ content }}
+    </main>
+    <footer>
+      © {{ site.time | date: '%Y' }} {{ site.author }} —
+      <a href="{{ site.github_username | prepend: 'https://github.com/' }}">GitHub</a> •
+      <a href="{{ site.linkedin }}">LinkedIn</a>
+    </footer>
+  </body>
+</html>
+
