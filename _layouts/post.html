@@ -1,15 +1,38 @@
 ---
-layout: default
+layout: base
 ---
 
 <article class="post">
-  <header class="post-header">
-    <h1 class="post-title">{{ page.title }}</h1>
-    <p class="post-meta">{{ page.date | date_to_long_string }}</p>
+  <header class="post-header" style="text-align:center; margin-bottom:2rem;">
+    <h1 class="post-title" style="color:#4dd0e1; margin-bottom:0.5rem;">
+      {{ page.title }}
+    </h1>
+    <p class="post-meta" style="color:#aaa;">
+      {{ page.date | date: "%B %d, %Y" }}
+    </p>
   </header>
 
-  <div class="post-content">
+  <div class="post-content" style="color:#eee; line-height:1.8; font-size:1.1rem;">
     {{ content }}
   </div>
 </article>
+
+<style>
+  body {
+    background-color: #0e0e0e;
+    color: #eee;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  }
+  a {
+    color: #4dd0e1;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  hr {
+    border: none;
+    border-top: 1px solid #333;
+    margin: 2rem 0;
+  }
+</style>
 
