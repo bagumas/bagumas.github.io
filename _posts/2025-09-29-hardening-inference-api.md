@@ -6,7 +6,6 @@ categories: [AI Security, Machine Learning]
 tags: [AI, Security, Adversarial ML, Cybersecurity]
 ---
 
-# ⚙️ Hardening ML Inference:
 A Deep Dive into Securing Models & APIs
 In many ML projects, deploying a model is the easy part — the real challenge is making sure it runs securely in production. I recently finished a project where I locked down both the **ML model** and the **inference stack** with multiple layers of security.
 Here’s what that looked like:
