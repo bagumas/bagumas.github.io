@@ -1,26 +1,41 @@
----
-layout: default
----
-
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{{ page.title }} | {{ site.title }}</title>
-    <link rel="stylesheet" href="{{ '/assets/css/blog-dark.css' | relative_url }}">
-  </head>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ site.title }}</title>
+  <meta name="description" content="{{ site.description }}">
+  <link rel="stylesheet" href="{{ '/assets/css/blog-dark.css' | relative_url }}">
+</head>
+<body class="dark-theme">
+  <header>
+    <h1>{{ site.title }}</h1>
+    <p>{{ site.description }}</p>
+    <nav>
+      <a href="{{ '/' | relative_url }}">Home</a> |
+      <a href="{{ '/projects.html' | relative_url }}">Projects</a> |
+      <a href="{{ '/blog/' | relative_url }}">Blog</a>
+    </nav>
+    <hr>
+  </header>
 
-  <body>
-    <main class="post-list">
-      <h1>{{ page.title }}</h1>
-      {{ content }}
-    </main>
-    <footer>
-      © {{ site.time | date: '%Y' }} {{ site.author }} —
-      <a href="{{ site.github_username | prepend: 'https://github.com/' }}">GitHub</a> •
-      <a href="{{ site.linkedin }}">LinkedIn</a>
-    </footer>
-  </body>
+  <main class="blog-index">
+    {% for post in site.posts %}
+      <article class="post-preview">
+        <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+        <p class="post-date">{{ post.date | date: "%d %B %Y" }}</p>
+        {% if post.excerpt %}
+          <p>{{ post.excerpt | strip_html | truncatewords: 40 }}</p>
+        {% endif %}
+        <a href="{{ post.url | relative_url }}" class="read-more">Read more →</a>
+        <hr>
+      </article>
+    {% endfor %}
+  </main>
+
+  <footer>
+    <p>© {{ site.time | date: "%Y" }} {{ site.author }} • <a href="{{ site.github_username | prepend: 'https://github.com/' }}">GitHub</a></p>
+  </footer>
+</body>
 </html>
 
