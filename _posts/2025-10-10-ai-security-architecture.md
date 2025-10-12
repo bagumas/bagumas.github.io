@@ -15,50 +15,50 @@ Here’s a condensed view of the framework 👇
 ## 1️⃣ Context-Driven Architecture
 
 Define before you design.
-→ Identify data classification, deployment model (on-prem, SaaS, hybrid, edge), integration points, and regulatory context (GDPR, CCPA, EU AI Act).
-→ Categorize model risk (predictive vs generative) based on business criticality.
+- Identify data classification, deployment model (on-prem, SaaS, hybrid, edge), integration points, and regulatory context (GDPR, CCPA, EU AI Act).
+- Categorize model risk (predictive vs generative) based on business criticality.
 
 ## 2️⃣ Identity & Access Management
 
-→ Enforce SSO + MFA for all privileged accounts.
-→ Define RBAC for ML engineers, curators, reviewers, and operators.
-→ Manage API keys via Vault/KMS — no hard-coded credentials.
+- Enforce SSO + MFA for all privileged accounts.
+- Define RBAC for ML engineers, curators, reviewers, and operators.
+- Manage API keys via Vault/KMS — no hard-coded credentials.
 
 ## 3️⃣ Data Security
 
-→ Encrypt everything (TLS 1.2+, AES-256).
-→ Apply data minimization and privacy-enhancing techniques (DP, anonymization).
-→ Filter sensitive prompts/outputs to prevent leakage.
+- Encrypt everything (TLS 1.2+, AES-256).
+- Apply data minimization and privacy-enhancing techniques (DP, anonymization).
+- Filter sensitive prompts/outputs to prevent leakage.
 
 ## 4️⃣ Model Security
 
-→ Sign and verify model artifacts before deployment.
-→ Assess adversarial threats (prompt injection, poisoning, model theft).
-→ Integrate red teaming, bias evaluation, and explainability.
+- Sign and verify model artifacts before deployment.
+- Assess adversarial threats (prompt injection, poisoning, model theft).
+- Integrate red teaming, bias evaluation, and explainability.
 
 ## 5️⃣ Infrastructure Security
 
-→ Adopt Zero Trust and micro-segmentation between training and inference.
-→ Secure containers, GPUs, and IaC pipelines.
-→ Patch AI frameworks and dependencies continuously.
+- Adopt Zero Trust and micro-segmentation between training and inference.
+- Secure containers, GPUs, and IaC pipelines.
+- Patch AI frameworks and dependencies continuously.
 
 ## 6️⃣ MLOps / Secure SDLC
 
-→ Embed OWASP ML/LLM Top 10 in your dev cycle.
-→ Automate code and model scanning in CI/CD.
-→ Require peer review and security sign-off before release.
+- Embed OWASP ML/LLM Top 10 in your dev cycle.
+- Automate code and model scanning in CI/CD.
+- Require peer review and security sign-off before release.
 
 ## 7️⃣ Monitoring & Logging
 
-→ Centralize telemetry in SIEM.
-→ Capture inference anomalies and model drift.
-→ Alert on abuse patterns (prompt injection, scraping).
+- Centralize telemetry in SIEM.
+- Capture inference anomalies and model drift.
+- Alert on abuse patterns (prompt injection, scraping).
 
 ## 8️⃣ Third-Party & Compliance
 
-→ Validate vendor AI security posture (SOC 2, ISO 27001, AI RMF).
-→ Map AI systems under regulatory frameworks (EU AI Act, HIPAA, PCI, GLBA).
-→ Maintain data processing agreements and human oversight.
+- Validate vendor AI security posture (SOC 2, ISO 27001, AI RMF).
+- Map AI systems under regulatory frameworks (EU AI Act, HIPAA, PCI, GLBA).
+- Maintain data processing agreements and human oversight.
 
 The outcome?
 ✅ Resilient AI systems.
