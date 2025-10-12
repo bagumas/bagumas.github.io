@@ -60,9 +60,9 @@ Define before you design.
 - Map AI systems under regulatory frameworks (EU AI Act, HIPAA, PCI, GLBA).
 - Maintain data processing agreements and human oversight.
 
-The outcome?
-✅ Resilient AI systems.
-✅ Traceable accountability.
+The outcome?<br>
+✅ Resilient AI systems.<br>
+✅ Traceable accountability.<br>
 ✅ Defensible security posture under global AI regulations.
 
 AI Security Architecture isn’t about adding controls — it’s about designing trust from day one.
