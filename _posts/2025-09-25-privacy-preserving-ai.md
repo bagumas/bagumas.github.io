@@ -21,7 +21,7 @@ A core principle here is **data minimization (GDPR)** — only collect and proce
 - **Geocoding**: Convert coordinates into generalized labels (e.g., what3words)
 
 ### Rich Media Anonymization
-- **Blurring, pixelation, masking **(OpenCV)
+- **Blurring, pixelation, masking** (OpenCV)
 - **Data perturbation**: Transform pixels to obscure identity
 - **Face replacement or GAN-generated synthetic images**
 - **Audio/Video**: Voice alteration, background noise, speech-to-text and back
