@@ -8,9 +8,9 @@ tags: [AI, Security, Adversarial ML, Cybersecurity]
 
 After weeks of integrating Jenkins + MLflow + Docker, I now have a fully automated **AI Model Validation Framework** running end-to-end.
 
-✅ **CI/CD pipeline**: Triggers model training, evaluation, and policy-driven validation.
-✅ **MLflow integration**: Logs performance (F1, latency p95, PII risk) for every model build.
-✅ **Policy gates**: Automatically halt promotion if thresholds fail (e.g., fairness, privacy, robustness).
+✅ **CI/CD pipeline**: Triggers model training, evaluation, and policy-driven validation. <br>
+✅ **MLflow integration**: Logs performance (F1, latency p95, PII risk) for every model build.<br>
+✅ **Policy gates**: Automatically halt promotion if thresholds fail (e.g., fairness, privacy, robustness).<br>
 ✅ **Reproducibility**: Each run version-tracked with Git SHA and metadata for traceable ML governance.
 
 The latest run shows:
